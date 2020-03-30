@@ -2,11 +2,12 @@
 
 require "pry" 
 def line(katz_deli)
+  message=Array.new
   counter=katz_deli.length
 if counter==0 
   puts "The line is currently empty."
 else
-message=katz_deli.each_with_index.map { |val,index| "#{index+1} #{val} "}
+katz_deli.each_with_index.{ |val,index| "#{index+1} #{val} "}
 
 end
 puts "The line is currently"  + message
