@@ -9,7 +9,7 @@ if counter==0
 else
 katz_deli.each_with_index { |val,index| message << "#{index+1}. #{val}" }
 message.each do |value|
-puts "The line is currently: #{message.join}"
+puts "The line is currently: #{message.join(" ")}"
 end
 end
 end
