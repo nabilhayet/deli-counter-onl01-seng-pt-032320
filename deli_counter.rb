@@ -10,7 +10,7 @@ else
 katz_deli.each_with_index { |val,index| message << "#{val} #{index}" }
 
 end
-puts "The line is currently:"  + message
+puts "The line is currently:"  + message.join
 binding.pry
 end
 
