@@ -8,7 +8,7 @@ if counter==0
   puts "The line is currently empty."
 else
 katz_deli.each_with_index { |val,index| message << "#{index+1}. #{val}" }
-puts "The line is currently: "  +  message.join+" "
+puts "The line is currently: "  +  message.join
 end
 end
 
