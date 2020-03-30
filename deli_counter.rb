@@ -9,7 +9,7 @@ if counter==0
 else
 katz_deli.each_with_index { |val,index| message << "#{index+1}. #{val}" }
 message.collect do |value|
-puts "The line is currently: " + value 
+puts "The line is currently: " + message
 end
 end
 end
