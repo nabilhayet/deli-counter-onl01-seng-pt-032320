@@ -1,6 +1,4 @@
-# Write your code here.
 
-require "pry" 
 def line(katz_deli)
   message=Array.new
   counter=katz_deli.length
